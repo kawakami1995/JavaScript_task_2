@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="main.css">
+ <title>電卓</title>
+ </head>
+ 
+ <body>
+ <h3>電卓</h3>
+ <input readonly id="display" type="text" value="0"/>
+ <div class="buttons">
+   <div class="button firstArea">
+    <input class ="button firstAreaButtons" type="button" onclick="cal('7')" id="button1" value="7"/>
+    <input class ="button firstAreaButtons" type="button" onclick="cal('8')" id="button2" value="8"/>
+    <input class ="button firstAreaButtons" type="button" onclick="cal('9')" id="button3" value="9"/>
+    <input class ="button firstAreaButtons" type="button" onclick="cal('+')" id="button4" value="+"/>
+   </div>
+   <div class="button secondArea">
+    <input class ="button secondAreaButtons" type="button" onclick="cal('4')" id="button5" value="4"/>
+    <input class ="button secondAreaButtons" type="button" onclick="cal('5')" id="button6" value="5"/>
+    <input class ="button secondAreaButtons" type="button" onclick="cal('6')" id="button7" value="6"/>
+    <input class ="button secondAreaButtons" type="button" onclick="cal('-')" id="button8" value="-"/>     
+   </div>   
+   <div class="button thirdArea">
+    <input class ="button thirdAreaButtons" type="button" onclick="cal('1')" id="button9" value="1"/>
+    <input class ="button thirdAreaButtons" type="button" onclick="cal('2')" id="button10" value="2"/>
+    <input class ="button thirdAreaButtons" type="button" onclick="cal('3')" id="button11" value="3"/>
+    <input class ="button thirdAreaButtons" type="button" onclick="cal('*')" id="button12" value="*"/>    
+   </div>
+   <div class="button forthArea">
+    <input class ="button forthAreaButtons" type="button" onclick="cal('0')" id="button13" value="0"/>
+    <input class ="button forthAreaButtons" type="button" onclick="cal('00')" id="button14" value="00"/>
+    <input class ="button forthAreaButtons" type="button" onclick="cal('.')" id="button15" value="."/>
+    <input class ="button forthAreaButtons" type="button" onclick="cal('/')" id="button16" value="/"/>   
+   </div>
+   <div class="button fifthArea">
+    <input class ="button fifthAreaButtons" type="button" onclick="cal('AC')" id="button17" value="AC"/>
+    <input class ="button fifthAreaButtons" type="button" onclick="cal('=')" id="button18" value="="/>     
+   </div>
+ </div>
+ 
+ <script src="main.js"></script>
+ </body>
+ </html>

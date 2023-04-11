@@ -1,0 +1,62 @@
+body{
+  box-sizing: border-box;
+  width: 200px;
+}
+
+#display{
+  text-align: right;
+  background-color: black;
+  color: white;
+  width: 200px;
+}
+
+.buttons{
+  display: flex;
+  flex-flow: column;
+  width: 208px;
+}
+
+.firstArea{
+  display: flex;
+  width: 100%;
+}
+
+.firstAreaButtons{
+  width: 25%;
+}
+
+.secondArea{
+  display: flex;
+}
+
+.secondAreaButtons{
+  width: 25%;
+}
+
+.thirdArea{
+  display: flex;
+}
+
+.thirdAreaButtons{
+  width: 25%;
+}
+
+.forthArea{
+  display: flex;
+}
+
+.forthAreaButtons{
+  width: 25%;
+}
+
+.fifthArea{
+  display: flex;
+}
+
+.fifthAreaButtons{
+  width: 50%;
+}
+
+#button1 {
+  
+}
